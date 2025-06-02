@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>keyJos - Teclados Únicos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+
+    header {
+      background: linear-gradient(to right, red, blue, yellow, green);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    .producto-img {
+      width: 100%;
+      max-width: 400px;
+      border: 3px solid #000;
+      border-radius: 10px;
+    }
+
+    .boton {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>keyJos</h1>
+    <p>¡Los teclados más coloridos y únicos!</p>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#producto">Producto</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>Bienvenidos a keyJos</h2>
+      <p>Descubre teclados únicos, modernos y con el mejor diseño para tu estilo. Personaliza tu experiencia con nuestros modelos coloridos.</p>
+    </section>
+
+    <section id="producto">
+      <h2>Nuestro Producto</h2>
+      <img src="teclado.jpg" alt="Teclado keyJos" class="producto-img" />
+      <p><strong>Teclado keyJos Rainbow</strong></p>
+      <p>Este teclado combina diseño, calidad y colores llamativos como rojo, azul, amarillo y verde. Ideal para gamers, estudiantes y profesionales.</p>
+      <p><strong>Precio:</strong> $499 MXN</p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contáctanos</h2>
+      <p>¿Quieres hacer un pedido o tienes dudas?</p>
+      <button class="boton" onclick="window.location.href='mailto:keyjos@email.com'">Enviar correo</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 keyJos | Síguenos en redes sociales</p>
+  </footer>
+</body>
+</html>
